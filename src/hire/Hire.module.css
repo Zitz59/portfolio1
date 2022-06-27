@@ -1,0 +1,28 @@
+h3{
+    margin: 0;
+}
+
+.hireBlock{
+    background-color: #d1bdb9;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hireContainer{
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    border: 1px solid;
+}
+
+.hireTitle{
+    background-color: #d683f1;
+}
+
+.hireButton{
+
+}
