@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 95px;
+    font-family: Poppins, sans-serif;
+    background-color: #d683f1;
+
+}

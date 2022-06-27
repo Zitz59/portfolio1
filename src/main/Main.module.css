@@ -1,0 +1,15 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #6565b1;
+}
+
+.mainDesc {
+    width: 300px;
+    background-color: cornflowerblue;
+}
+
+.mainPhoto {
+    width: 300px;
+    height: 400px;
+    background-color: cornflowerblue;
+}
