@@ -9,7 +9,7 @@ export const Main = () => {
                 <div className={styles.mainDesc}>
                     <span>Hello</span>
                     <h1>I'm Alexander Zaytsev</h1>
-                    <span>Frontend Developer</span>
+                    <p>A Frontend Developer</p>
                 </div>
                 <div className={styles.mainPhoto}></div>
             </div>
