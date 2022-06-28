@@ -1,20 +1,25 @@
-.projectBlock{
-    height: 100vh;
+.projectBlock {
+    min-height: 100vh;
+    min-width: 280px;
     background-color: #04c4ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.projectContainer{
+.projectContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.projectsTitle{
-    background-color: #99cafb;
+.projectsTitle {
+    background-color: #6868d7;
 }
 
-.projects{
-    width: 80%;
+.projects {
+    width: 100%;
     border: 1px solid;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
