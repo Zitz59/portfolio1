@@ -5,10 +5,10 @@ export const Project = (props) => {
     return (
         <div className={styles.project}>
             <div className={styles.projectPic}>
-                <button className={styles.projectButton}>смотреть</button>
+                <button className={styles.projectButton}>Watch</button>
             </div>
-            <span>{props.projectTitle}</span>
-            <p className={styles.projectDesc}>{props.projectDescription}</p>
+            <h4 className={styles.projectTitle}>{props.projectTitle}</h4>
+            <span className={styles.projectDesc}>{props.projectDescription}</span>
         </div>
     );
 };
