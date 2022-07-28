@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from "./Contacts.module.css"
 import stylesContainer from '../common/styles/Container.module.css'
+import {Button} from "../common/components/button/Button";
 
 export const Contacts = () => {
     return (
@@ -16,7 +17,7 @@ export const Contacts = () => {
                     <label htmlFor={"message"}></label>
                     <textarea className={styles.textArea} name="message" id={"message"}>Message</textarea>
                 </form>
-                <button className={styles.contactsButton}>Send</button>
+                <Button type={"submit"} buttonTitle={'Send'}/>
             </div>
 
         </div>
