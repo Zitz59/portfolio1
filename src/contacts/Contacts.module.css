@@ -9,6 +9,7 @@
 
 .contactsContainer {
     height: 80%;
+    flex-wrap: nowrap;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -32,7 +33,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 280px;
+    min-width: 80%;
     background-color: #bcbcbc;
 }
 
@@ -40,14 +41,7 @@
     resize: none;
     wrap-option: on;
     overflow: auto;
-    min-width: 275px;
+    min-width: 250px;
     min-height: 175px;
     background-color: #ffffff;
 }
-
-.contactsButton {
-    border-radius: 15px;
-    min-height: 35px;
-    min-width: 95px;
-}
-
