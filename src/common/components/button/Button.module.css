@@ -1,0 +1,30 @@
+.button {
+    border-radius: 15px;
+    min-height: 25px;
+    min-width: 85px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 30px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.1;
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+
+    background-color: #d20746;
+
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+
+    transition: background 0.7s linear;
+}
+
+.button:hover {
+    background-color: #ad67b9;
+    color: #c4cfde;
+}
