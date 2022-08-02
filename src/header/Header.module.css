@@ -2,8 +2,10 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    width: 100%;
     height: 95px;
     font-family: Poppins, sans-serif;
     background-color: #d683f1;
+    position: fixed;
 
 }
