@@ -1,0 +1,21 @@
+@import "src/common/styles/sass/variables";
+
+@mixin text($fontSize,$fontWeight) {
+  font-family: $secondaryFont;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  color: $primaryColor;
+}
+
+@mixin descriptionText($fontSize,$fontWeight) {
+  font-family: $primaryFont;
+  font-size: $fontSize;
+  font-weight: $fontWeight;
+  color: $secondColor;
+}
+
+@mixin flex($display,$flex-direction,$position) {
+  display: $display;
+  flex-direction: $flex-direction;
+  position: $position;
+}
