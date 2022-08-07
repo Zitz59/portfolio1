@@ -1,0 +1,29 @@
+@import "src/common/styles/sass/variables";
+.footerBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background:$backgroundSecondColor ;
+    min-height: 200px;
+    .footerContainer{
+        height: 85%;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin: 0 auto;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: space-around;
+        .iconsBlock{
+            width: 30%;
+            flex-wrap: nowrap;
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+
+
