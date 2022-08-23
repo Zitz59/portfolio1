@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio1/static/css/main.a1d51d95.css",
-    "main.js": "/portfolio1/static/js/main.d92e0ab4.js",
+    "main.css": "/portfolio1/static/css/main.20c18861.css",
+    "main.js": "/portfolio1/static/js/main.76976100.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio1/static/js/787.1ed0c42c.chunk.js",
     "static/media/counter.png": "/portfolio1/static/media/counter.e03315fe0b2307dba7c7.png",
     "static/media/socialNtwrk.png": "/portfolio1/static/media/socialNtwrk.eb164d850c741b803f7d.png",
+    "static/media/instagram-social-network-logo-of-photo-camera-svgrepo-com.svg": "/portfolio1/static/media/instagram-social-network-logo-of-photo-camera-svgrepo-com.4b7776ef7536783d4aab2c07aca9adca.svg",
+    "static/media/linkedin-logo-svgrepo-com.svg": "/portfolio1/static/media/linkedin-logo-svgrepo-com.b5438c1f9fe29dc7c1cb18f42130bf4e.svg",
     "index.html": "/portfolio1/index.html",
-    "main.a1d51d95.css.map": "/portfolio1/static/css/main.a1d51d95.css.map",
-    "main.d92e0ab4.js.map": "/portfolio1/static/js/main.d92e0ab4.js.map",
+    "static/media/github-svgrepo-com.svg": "/portfolio1/static/media/github-svgrepo-com.fc0ffe042a9582d2a394e1c609baa9f2.svg",
+    "static/media/facebook-svgrepo-com.svg": "/portfolio1/static/media/facebook-svgrepo-com.0d5e6220ef91de7748ed9106e95a21e0.svg",
+    "main.20c18861.css.map": "/portfolio1/static/css/main.20c18861.css.map",
+    "main.76976100.js.map": "/portfolio1/static/js/main.76976100.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio1/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1d51d95.css",
-    "static/js/main.d92e0ab4.js"
+    "static/css/main.20c18861.css",
+    "static/js/main.76976100.js"
   ]
 }
