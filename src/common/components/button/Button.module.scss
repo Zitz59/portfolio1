@@ -1,0 +1,30 @@
+@import "src/common/styles/sass/variables";
+
+.button {
+  display: inline-block;
+  padding: 10px 30px;
+  position: relative;
+  z-index: 1;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.1;
+  color: $backgroundSecondColor;
+  font-weight: 700;
+  text-decoration: none;
+
+  background-color:$backgroundThirdColor;
+
+  border-radius: 10px;
+  min-height: 30px;
+  min-width: 85px;
+
+  border: 0;
+  cursor: pointer;
+
+  transition: background 0.7s linear;
+    &:hover {
+        background-color: $primaryColor;
+        color: $textColor;
+    }
+}
