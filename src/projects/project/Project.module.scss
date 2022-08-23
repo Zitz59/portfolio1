@@ -1,0 +1,67 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+
+.project {
+  @include flex(flex,column,relative);
+  margin: 30px 0;
+  width: 300px;
+  height: 100%;
+  text-align: start;
+  padding: 30px;
+
+  border-radius: 20px;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: $shadow1;
+  z-index: 1;
+
+  transition: 0.5s all ease-in-out;
+  box-sizing: unset;
+  /*align-items: flex-start;*/
+  .projectPic {
+    @include flex(flex,column,relative);
+    width: 100%;
+    min-height: 300px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: #1c1e22;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.35;
+    }
+  }
+
+  .projectContent {
+    padding-top: 18px;
+    .h4 {
+      margin: 0;
+    }
+    .projectTitle {
+      @include text(12px, 500);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      display: block;
+    }
+
+    .projectDesc {
+      @include descriptionText(23px,600);
+      word-break: break-word;
+      line-height: 34px;
+      transition: 0.4s;
+      display: inline-block;
+    }
+  }
+}
+
