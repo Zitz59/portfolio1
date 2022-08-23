@@ -90,6 +90,7 @@
           textarea :focus {
             border-bottom: 1px solid #eb83f8;
             outline: none;
+            transition: 0.8s;
           }
 
           .lineText {
@@ -188,6 +189,7 @@
                 }
 
                 :focus {
+                  transition: 0.8s;
                   border-bottom: 1px solid #eb83f8;
                   outline: none;
                 }
@@ -205,11 +207,9 @@
   }
 
   .mapColumn {
-    padding: 0px;
+    padding: 0;
     position: relative;
     min-height: 1px;
-
-
     @media (min-width: 992px) {
       width: 41.66666667%;
       float: left;
