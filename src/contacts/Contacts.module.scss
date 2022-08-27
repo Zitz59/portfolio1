@@ -11,6 +11,11 @@
     padding: 0;
     position: relative;
     z-index: 1;
+    @media screen and (max-width: 991px)
+    {
+      display: block;
+      flex-wrap: wrap;
+    }
 
     &::before {
       display: table;
@@ -67,6 +72,19 @@
           }
         }
       }
+      @media screen and (max-width: 991px) {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        background-color: $primaryColor;
+        position: relative;
+        min-height: 1px;
+        //padding-right: 15px;
+        //padding-left: 15px;
+      };
     }
 
     .formColumn {
