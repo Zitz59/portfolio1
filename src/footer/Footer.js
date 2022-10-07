@@ -1,11 +1,10 @@
 import React from 'react';
 import styles from './Footer.module.scss'
 import {Icon} from '../icon/Icon';
-import instIc from '../assets/icons/instagram-social-network-logo-of-photo-camera-svgrepo-com.svg';
-import githubIc from '../assets/icons/github-svgrepo-com.svg';
-import fbIc from '../assets/icons/facebook-svgrepo-com.svg';
-import lnIc from '../assets/icons/linkedin-logo-svgrepo-com.svg';
-
+import instIc from '../assets/icons/instagram.png'
+import githubIc from '../assets/icons/github.png'
+import fbIc from '../assets/icons/facebook.png'
+import lnIc from '../assets/icons/linkedin.png'
 
 const Footer = () => {
     const instIcon = {
