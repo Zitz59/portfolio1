@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from "./Icon.module.css"
+import styles from "./Icon.module.scss"
 
 
-export const Icon = () => {
+export const Icon = (props) => {
     return (
-            <div className={styles.icon}></div>
+        <div style={props.style} className={styles.icon}></div>
     );
 };
 
