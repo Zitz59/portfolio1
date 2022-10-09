@@ -1,34 +1,68 @@
 @import "src/common/styles/sass/variables";
-.mainBlock {
-    min-height: 100vh;
-    min-width: 280px;
 
+.mainBlock {
+  min-height: 100vh;
+  min-width: 280px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.mainDesc span {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    @media only screen and (max-width: 814px) {
+      margin-top: 90px;
+      text-align: center;
+    }
+  }
+
+  .mainDesc span {
     font-family: $secondaryFont;
     font-size: 48px;
-    color:$textColor2;
-}
+    color: $textColor2;
 
-.mainDesc h1 {
+    @media only screen and (max-width: 737px) {
+      font-size: 24px;
+    }
+  }
+
+  .mainDesc h1 {
     font-weight: 700;
     font-size: 60px;
     line-height: 75px;
     margin-bottom: 22px;
     font-family: $secondaryFont;
-}
-.mainDesc p {
+    @media only screen and (max-width: 737px) {
+      font-size: 30px;
+      margin-bottom: 11px;
+    }
+  }
+
+  .mainDesc p {
     font-family: $secondaryFont;
     font-size: 48px;
-    color:$textColor2;
-}
+    color: $textColor2;
+    @media only screen and (max-width: 737px) {
+      font-size: 24px;
+    }
+  }
 
-.mainPhoto {
+  .mainPhoto {
     min-width: 280px;
     min-height: 400px;
     background-color: cornflowerblue;
-    margin-top: 20px;
+    @media only screen and (max-width: 737px) {
+      margin: 20px 0px 20px 0px;
+      min-width: 140px;
+      min-height: 200px;
+    }
+
+  }
+
 }
