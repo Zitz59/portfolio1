@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Hire.module.scss"
-import stylesContainer from '../common/styles/Container.module.css'
+import stylesContainer from '../common/styles/Container.module.scss'
 import {Button} from "../common/components/button/Button";
 import {Button1} from '../common/components/button/Button1';
 
