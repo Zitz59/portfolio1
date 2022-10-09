@@ -1,23 +1,33 @@
 @import "src/common/styles/sass/variables";
+
 .hireBlock {
-    background:$backgroundSecondColor ;
-    min-height: 200px;
-    min-width: 280px;
-    display: flex;
+  background: $backgroundSecondColor;
+  min-height: 210px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+
+  .hireContainer {
+    width: 80%;
+    height: 80%;
     flex-direction: column;
-    justify-content: center;
-    .hireContainer {
-        width: 80%;
-        height: 80%;
-        flex-direction: column;
-        justify-content: space-around;
-        .hireTitle {
-            font-family: "Poppins", sans-serif;
-            font-size: 38px;
-            color: #c4cfde;
-            margin-bottom: 60px;
-        }
+    justify-content: space-around;
+
+    .hireTitle {
+      font-family: "Poppins", sans-serif;
+      font-size: 38px;
+      color: #c4cfde;
+      margin-bottom: 30px;
+      @media screen and (max-width: 1022px) {
+        text-align: center;
+      }
+      @media screen and (max-width: 737px) {
+        font-size: 24px;
+      }
     }
+  }
 }
 
 
