@@ -3,9 +3,10 @@
 .projectBlock {
   .row {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     overflow: hidden;
-    min-height: 100%;
+    min-height: 100vh;
     padding: 0;
     position: relative;
     z-index: 1;
@@ -31,7 +32,7 @@
       align-items: center;
       background-color: $primaryColor;
       position: relative;
-      min-height: 1px;
+      min-height: 100vh;
       padding-right: 15px;
       padding-left: 15px;
       @media screen and (min-width: 992px) {
@@ -60,7 +61,6 @@
             @media screen and (max-width: 992px) {
               font-size: 60px;
             }
-
 
             .baffleSpan {
               color: #fff;
@@ -93,11 +93,9 @@
       };
     }
 
-
     .projectContainer {
       flex-direction: column;
       justify-content: flex-start;
-
     }
 
     .projects {
