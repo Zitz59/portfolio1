@@ -2,7 +2,6 @@ import React from 'react';
 import styles from './Projects.module.scss'
 import stylesContainer from '../common/styles/Container.module.scss'
 import {Project} from './project/Project';
-import {Title} from '../common/components/title/Title';
 import snetImg from '../assets/images/socialNtwrk.png'
 import countImg from '../assets/images/counter.png'
 
@@ -26,7 +25,6 @@ const Projects = () => {
                     </h2>
                 </div>
                 <div className={`${stylesContainer.container} ${styles.projectContainer}`}>
-                    <Title text={'Projects'}/>
                     <div className={styles.projects}>
                         <Project style={socialNetwork} projectTitle={"Social Network"}
                                  projectDescription={"Architecto cupiditate debitis dignissimos ea."}/>
