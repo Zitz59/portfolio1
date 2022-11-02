@@ -1,25 +1,44 @@
 @import "src/common/styles/sass/variables";
 
 .skillsBlock {
-  min-height: 100vh;
-  min-width: 280px;
-  background:$backgroundSecondColor ;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background: $backgroundSecondColor;
 
-  .skillsContainer {
-    flex-direction: column;
-    justify-content: flex-start;
-
-    .skills {
-      width: 100%;
-      display: flex;
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    min-height: 100vh;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    @media screen and (max-width: 991px) {
+      display: block;
       flex-wrap: wrap;
-      justify-content: space-evenly;
-      margin-top: 30px;
     }
 
+    &::before {
+      display: table;
+      content: " ";
+      box-sizing: border-box;
+    }
+
+    &::after {
+      clear: both;
+    }
+
+    .skillsContainer {
+      flex-direction: column;
+      justify-content: flex-start;
+
+      .skills {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 30px;
+      }
+    }
   }
 }
 
