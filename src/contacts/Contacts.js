@@ -53,7 +53,7 @@ export const Contacts = () => {
                     <div className={styles.animatedFadeUpFast}>
                         {/*<Map/>*/}
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25083.336724970333!2d22.383794103622293!3d40.07785855883377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135813ec20ecc251%3A0xe579def37a813f8c!2zzozOu8-FzrzPgM6_z4I!5e1!3m2!1sen!2sru!4v1661247409703!5m2!1sen!2sru"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000.7681800499422!2d20.460824699622243!3d44.80934264523903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7aa8da54c451%3A0xe5643e65a4de8733!2zS9GA0LDRmdC40YbQtSDQndCw0YLQsNC70LjRmNC1IDcyLCDQkdC10L7Qs9GA0LDQtCAxMTAwMA!5e0!3m2!1sru!2srs!4v1678742601584!5m2!1sru!2srs"
                             width="100%" height="884"
                             frameBorder={'0'}
                         />
