@@ -57,6 +57,11 @@
     min-width: 280px;
     min-height: 400px;
     background-color: cornflowerblue;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
     @media only screen and (max-width: 737px) {
       margin: 20px 0 20px 0;
       min-width: 140px;
