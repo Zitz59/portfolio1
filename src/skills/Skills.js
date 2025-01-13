@@ -29,35 +29,37 @@ export const Skills = () => {
 
     return (
 
-
-        <div className={styles.skillsBlock}>
-            <div className={styles.row}>
-                <SideTitle title='Skills'/>
-                <div className={`${stylesContainer.container} ${styles.skillsContainer}`}>
-                    <div className={styles.skills}>
-                        <Skill style={htmlIcon}
-                               title={'HTML'}
-                               description={'Lorem ipsum dolor sit amet, deleniti est et harum consectetur adipisicing elit.'}
-                        />
-                        <Skill style={jsIcon}
-                               title={'JS'}
-                               description={'Ad consectetur cumque cupiditate  id magni placeat suscipit tempora, voluptatum.'}
-                        />
-                        <Skill style={csSIcon}
-                               title={'CSS'}
-                               description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta esse ipsa magni nostrum possimus voluptatum?'}
-                        />
-                        <Skill style={reactIcon}
-                               title={'REACT'}
-                               description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
-                        />
-                        <Skill style={tsIcon}
-                               title={'TYPESCRIPT'}
-                               description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
-                        />
+        <section id="skills">
+            <div className={styles.skillsBlock}>
+                <div className={styles.row}>
+                    <SideTitle title='Skills'/>
+                    <div className={`${stylesContainer.container} ${styles.skillsContainer}`}>
+                        <div className={styles.skills}>
+                            <Skill style={htmlIcon}
+                                   title={'HTML'}
+                                   description={'Lorem ipsum dolor sit amet, deleniti est et harum consectetur adipisicing elit.'}
+                            />
+                            <Skill style={jsIcon}
+                                   title={'JS'}
+                                   description={'Ad consectetur cumque cupiditate  id magni placeat suscipit tempora, voluptatum.'}
+                            />
+                            <Skill style={csSIcon}
+                                   title={'CSS'}
+                                   description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dicta esse ipsa magni nostrum possimus voluptatum?'}
+                            />
+                            <Skill style={reactIcon}
+                                   title={'REACT'}
+                                   description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
+                            />
+                            <Skill style={tsIcon}
+                                   title={'TYPESCRIPT'}
+                                   description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'}
+                            />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
     )
 }

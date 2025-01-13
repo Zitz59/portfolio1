@@ -15,25 +15,28 @@ const Projects = () => {
     };
 
     return (
-        <div className={styles.projectBlock}>
-            <div className={styles.row}>
-                <div className={styles.sideColumn}>
-                    <h2>
+        <section id="projects">
+            <div className={styles.projectBlock}>
+                <div className={styles.row}>
+                    <div className={styles.sideColumn}>
+                        <h2>
                         <span className={styles.baffleText}>
                             <span className={styles.baffleSpan}>Projects</span>
                         </span>
-                    </h2>
-                </div>
-                <div className={`${stylesContainer.container} ${styles.projectContainer}`}>
-                    <div className={styles.projects}>
-                        <Project style={socialNetwork} projectTitle={"Social Network"}
-                                 projectDescription={"Architecto cupiditate debitis dignissimos ea."}/>
-                        <Project style={counter} projectTitle={"Counter"}
-                                 projectDescription={"Lorem ipsum dolor sit amet."}/>
+                        </h2>
+                    </div>
+                    <div className={`${stylesContainer.container} ${styles.projectContainer}`}>
+                        <div className={styles.projects}>
+                            <Project style={socialNetwork} projectTitle={"Social Network"}
+                                     projectDescription={"Architecto cupiditate debitis dignissimos ea."}/>
+                            <Project style={counter} projectTitle={"Counter"}
+                                     projectDescription={"Lorem ipsum dolor sit amet."}/>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
     );
 };
 
