@@ -1,29 +1,58 @@
 @import "src/common/styles/sass/variables";
-.footerBlock{
+
+.footerBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $backgroundSecondColor;
+  min-height: 200px;
+
+  .footerContainer {
+    height: 85%;
+    width: 80%;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
-    background:$backgroundSecondColor ;
-    min-height: 200px;
-    .footerContainer{
-        height: 85%;
-        width: 80%;
-        display: flex;
+    align-content: space-around;
+
+    .iconsBlock {
+      width: 30%;
+      flex-wrap: nowrap;
+      display: flex;
+      justify-content: space-evenly;
+      list-style: none;
+      padding:0;
+      margin: 0;
+
+      .iconLink {
+        display: inline-flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        outline: none;
+        border-radius: 8px;
+        color: #fff; /* базовый цвет иконок */
 
-        margin: 0 auto;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: space-around;
-        .iconsBlock{
-            width: 30%;
-            flex-wrap: nowrap;
-            display: flex;
-            justify-content: space-evenly;
+        .icon {
+          width: 60px;
+          height: 60px;
+          fill: currentColor; /* SVG будет наследовать цвет */
+          transition: transform .2s ease, color .2s ease;
         }
+
+        &:hover,
+        &:focus-visible {
+          color: #714078; /* меняем цвет при наведении */
+        }
+
+        &:hover .icon,
+        &:focus-visible .icon {
+          transform: scale(1.2); /* увеличиваем */
+        }
+      }
     }
+  }
 }
-
-
-
