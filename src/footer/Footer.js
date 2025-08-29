@@ -1,41 +1,32 @@
 import React from 'react';
-import styles from './Footer.module.scss'
-import {Icon} from '../icon/Icon';
-import instIc from '../assets/icons/instagram.png'
-import githubIc from '../assets/icons/github.png'
-import fbIc from '../assets/icons/facebook.png'
-import lnIc from '../assets/icons/linkedin.png'
+import styles from './Footer.module.scss';
+import { SOCIAL_LINKS } from '../constants/socials';
 
 const Footer = () => {
-    const instIcon = {
-        backgroundImage: `url(${instIc})`
-    }
-    const gitIcon = {
-        backgroundImage: `url(${githubIc})`
-    }
-    const fbIcon = {
-        backgroundImage: `url(${fbIc})`
-    }
-    const lnIcon = {
-        backgroundImage: `url(${lnIc})`
-    }
-
-    //TODO: 1 --- добавить анимацию при наведении мышки на логотипы
-    //TODO: 2 --- добавить рабочие ссылки при клике на которые будет перекидывать на linkedin и github
-
     return (
-        <div className={styles.footerBlock}>
+        <footer className={styles.footerBlock}>
             <div className={styles.footerContainer}>
                 <h4 className={styles.footerTitle}>Alexandr Zaitsev</h4>
-                <div className={styles.iconsBlock}>
-                    <Icon style={instIcon}/>
-                    <Icon style={gitIcon}/>
-                    <Icon style={fbIcon}/>
-                    <Icon style={lnIcon}/>
-                </div>
-                <h5> &copy; 2025 All rights reserved</h5>
+                <ul className={styles.iconsBlock}>
+                    {SOCIAL_LINKS.map(({ key, href, label, Icon }) => (
+                        <li key={key}>
+                            <a
+                                href={href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={label}
+                                title={label}
+                                className={styles.iconLink}
+                            >
+                                <Icon className={styles.icon} />
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+
+                <h5>© 2025 All rights reserved</h5>
             </div>
-        </div>
+        </footer>
     );
 };
 
